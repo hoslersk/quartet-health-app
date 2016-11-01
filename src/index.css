@@ -3,3 +3,12 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+td, th {
+    display: table-cell;
+    /*vertical-align: inherit;*/
+}
+
+.calc table select[size] {
+    height: auto;
+}

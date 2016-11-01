@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import Questions from './questions'
 
 export default function Questionnaire(props) {
   return(
     <div>
       <h2>Questionnaire Div</h2>
+      <Questions />
     </div>
   )
 }
